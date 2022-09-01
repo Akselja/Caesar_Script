@@ -1,24 +1,68 @@
+html {
+  height: auto;
+}
+
 html, body {
   height: 70%;
   width: 99%;
-  background-color: rgb(48, 88, 112);
+  background-color: black;
+}
+
+.row {
+  background-color: black;
+  margin-bottom: 40%
 }
 
 h1 {
-  margin-top: 15%;
+  size: 45em;
+  padding-top: 10%;
+  padding-bottom: 5%;
   position: relative;
   text-align: center;
   font-family: adele mono, monospace;
-  color: rgb(11, 18, 26);
+  color: #39ff14;
+}
+
+p {
+  color: #39ff14;
 }
 
 .text-input {
   margin-top: 50px;
   text-align: center;
+  
+}
+
+p {
+  padding-top: 3%;
+}
+
+button {
+  background-color: black;
+  color: #39ff14;
+  border: 2px solid #39ff14;
+  width: 80px;
+  height: 30px;
+}
+
+button:hover {
+  background-color: #39ff14;
+  color: black;
 }
 
 .submit {
-  position: relative;
   text-align: center;
-  margin-top: 45px;
+  padding: 2% 0;
+}
+
+.encrypt {
+  padding-right: 40px;
+}
+.imgKryptering {
+  width: 100%;
+  opacity: 100%;
+}
+
+.CfinishedMessage {
+  border-block-color: #39ff14;
 }
