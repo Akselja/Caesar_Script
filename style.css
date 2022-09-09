@@ -16,7 +16,7 @@ html, body {
 h1 {
   size: 45em;
   padding-top: 10%;
-  padding-bottom: 5%;
+  padding-bottom: ;
   position: relative;
   text-align: center;
   font-family: adele mono, monospace;
@@ -25,16 +25,24 @@ h1 {
 
 p {
   color: #39ff14;
+  text-align: center;
+  padding-top: 10px;
+  min-width: 60px;
+}
+
+#informationText {
+  margin: 0 30% 1rem;
+  text-align: center;
+}
+@media only screen and (max-width: 530px) {
+  #informationText {
+    margin: 0 10% 1rem;
+  }
 }
 
 .text-input {
   margin-top: 50px;
   text-align: center;
-  
-}
-
-p {
-  padding-top: 3%;
 }
 
 button {
@@ -52,7 +60,7 @@ button:hover {
 
 .submit {
   text-align: center;
-  padding: 2% 0;
+  padding: 2rem 0;
 }
 
 .encrypt {
@@ -65,4 +73,10 @@ button:hover {
 
 .CfinishedMessage {
   border-block-color: #39ff14;
+  margin: 1rem 0;
+}
+
+@media screen and (min-width: 436px) {
+  #informationText {
+  }
 }

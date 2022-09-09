@@ -1,4 +1,4 @@
-+<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -23,6 +23,11 @@
 
     <h1>Turing Computer v.2</h1>
 
+    <div>
+      <p id="informationText">This is a website where you can encrypt messages. It uses a jumbled alphabet, which makes it necessary to decrypt using this website, or copying the alphabet used. </p>
+    </div>
+
+
     <div class="text-input">
       <input title="Text for encryption" id="Original_Message" placeholder="Text for encryption" type="text">
       <input title="Encryption Key" id="Encryption_Key" min="-85" max="85" placeholder="Encryption Key" type="number">
@@ -33,9 +38,6 @@
       <button id="encrypt" onclick="getKeys()">ENCRYPT</button>
       <button id="myInput" type="button" value="CLEAR" onclick="clearChache()">CLEAR</button>
       <p class="CfinishedMessage" id="finishedMessage">(Encrypted text goes here)</p>
-    </div>
-    <div>
-      <p></p>
     </div>
   </div>
   </main>
